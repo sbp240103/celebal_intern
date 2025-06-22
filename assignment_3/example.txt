@@ -1,0 +1,5 @@
+A promise in JavaScript is a way to handle asynchronous operations. It represents a value that may be available now, later, or never. Promises are used when tasks take some time to finish, like loading data from a server or reading a file.
+
+A promise has three states: pending (still running), fulfilled (finished successfully), and rejected (failed with an error). When the task completes, the promise either resolves with a result or rejects with an error.
+
+We use `.then()` to handle success and `.catch()` to handle errors. Promises make code easier to read and manage than using many nested callback functions. They help avoid "callback hell" and improve error handling in asynchronous code.
